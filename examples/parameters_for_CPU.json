@@ -1,0 +1,59 @@
+{
+	"chapters" : {
+		"MUSIQUE" : {
+			"export" : false,
+			"in_full" : "♪"
+		},
+		"INTERVIEW" : {
+			"export" : true,
+			"in_full" : "Interview",
+			"path" : "Interviewes"
+		},
+
+		"ARCHEOLOGIE" : {
+			"export" : true,
+			"in_full" : "Apeuprès-archéologie",
+			"path" : "Chroniques/Archeologie"
+		},
+		"ENFANT" : {
+			"export" : true,
+			"in_full" : "Bonjour à toi, enfant du futur immédiat",
+			"path" : "Chroniques/Enfant"
+		},
+		"EXPATRIE" : {
+			"export" : true,
+			"in_full" : "Expatrié en France",
+			"path" : "Chroniques/Exile"
+		},
+		"HISTOIRE" : {
+			"export" : true,
+			"in_full" : "Histoire",
+			"path" : "Chroniques/Histoire"
+		},
+		"HOWTO" : {
+			"export" : true,
+			"in_full" : "How to",
+			"path" : "Chroniques/Howto"
+		},
+		"MASCOTTE" : {
+			"export" : true,
+			"in_full" : "La mascotte",
+			"path" : "Chroniques/Mascotte"
+		},
+		"METEO" : {
+			"export" : true,
+			"in_full" : "La météo d'internet",
+			"path" : "Chroniques/Meteo"
+		},
+		"NAQUIT" : {
+			"export" : true,
+			"in_full" : "Ainsi naquit",
+			"path" : "Chroniques/Naquit"
+		},
+		"PLANTAGE" : {
+			"export" : true,
+			"in_full" : "Plantage",
+			"path" : "Chroniques/Plantage"
+		},
+	}
+}
