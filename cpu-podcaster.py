@@ -1,6 +1,15 @@
 #!/usr/bin/python3
 
+import json
+
 segments = []
+parameters = None
+
+with open('./parameters.json', 'r') as parfile:
+	parameters = json.load(parfile)
+
+print(parameters)
+
 
 def from_col_timecode(text):
 	return float(text.replace(',','.'))
