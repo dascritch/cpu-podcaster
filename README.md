@@ -14,14 +14,13 @@ This piece of s...oftware is dedicated to take a full radio show in ready-to-bro
 ### Exports constraints :
 
 - launching cpu_podcaster should ask a minimum interaction, but verify information before being really run
+- cuted chapters audio files need at least 1/75th second precision on start and end (Audio CD frame precision)
 - mp3 files should be in a sub-directory `./podcast/` of each ogg file
 - some sections must go in different sub-dir structure (mainly interviewes)
 - mp3 and ogg should have meta tags information (id3)
 - mp3 should embed "cover" image
 - mp3 and ogg should support chaptering when available
-- a chapters.html should be exported, for being inserted in blog post
-
-
+- a chapters.html should be exported, for being inserted in blog post. Chapters needs only precision to the second and indicate the start point, but specific link annotation according to [ondemiroir-audio-tag format](https://github.com/dascritch/ondemiroir-audio-tag)
 
 ### Example of html segment
 

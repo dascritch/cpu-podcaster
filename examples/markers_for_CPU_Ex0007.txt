@@ -1,0 +1,9 @@
+87,233830	908,910557	ENFANT : Bonjour à toi, enfant du futur immédiat : j'ai loué cpu.p
+908,311012	1055,799137	MUSIQUE : The Who - Who are you
+1221,873164	1447,302167	HOWTO : Le système DNS
+1447,751826	1750,672050	MUSIQUE : Miss Kittin & The Hacker - I come .com
+1761,463864	2827,455270	INTERVIEW : Anthony Eden, fondateur de DNS Simple
+2833,450722	2897,002516	MUSIQUE : Étienne de Crécy - Noname
+2902,997968	3266,322373	PLANTAGE : Sex.com
+3275,915096	3393,425960	MUSIQUE : Bang gang - Stop in the name of Love
+3404,217774	3537,316813	METEO : En vers des domaines
