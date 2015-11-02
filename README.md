@@ -1,15 +1,16 @@
-### CPU podcaster
+## CPU podcaster
 
-This piece of s...oftware is dedicated to take a full radio show in ready-to-broadcast wav format to :
+This piece of s...oftware is dedicated to take a full radio show in ready-to-broadcast `.wav` format and its annotation `.txt` track to :
 
 - full ogg vorbis broadcastable file
 - full mp3 file for old podcast devices
 - html excerpt with reference to segments
+- excerpts in ogg and mp3 with same parameters
 
 ### Entry files :
 
-- .wav ready-to-broadcast named in a special fashion for getting metadata from file name.
-- timeline export of audacity, to catch chapters time cues and names
+- a `.wav` ready-to-broadcast named in a special fashion for getting metadata from file name. 
+- a `.txt` timeline markers export of audacity, to catch chapters time cues and names
 
 ### Exports constraints :
 
@@ -20,7 +21,8 @@ This piece of s...oftware is dedicated to take a full radio show in ready-to-bro
 - mp3 and ogg should have meta tags information (id3)
 - mp3 should embed "cover" image
 - mp3 and ogg should support chaptering when available
-- a chapters.html should be exported, for being inserted in blog post. Chapters needs only precision to the second and indicate the start point, but specific link annotation according to [ondemiroir-audio-tag format](https://github.com/dascritch/ondemiroir-audio-tag)
+- a `chapters.html` should be exported, for being inserted in blog post.
+- `chapters.html` needs only precision to the (truncated) second and indicate the start point, but specific link annotation according to [ondemiroir-audio-tag format](https://github.com/dascritch/ondemiroir-audio-tag)
 
 ### Example of html segment
 
